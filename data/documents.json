@@ -1,0 +1,92 @@
+[
+  {
+    "name": "pentest example",
+    "templateId": "c9049a9f-2ca6-4694-af4c-8e2bfc0fc2f0",
+    "templateName": "Devsec pentest report template",
+    "json_structure": "{\n    \"report_date\": \"string\",\n    \"report_version\": \"string\",\n    \"report_author\": \"string\",\n    \"customer\": \"string\",\n    \"product\": \"string\",\n    \"assessement_date\":\"string\",\n    \"executive_summary\": \"md\",\n    \"background\": \"md\",\n    \"purpose\": \"md\",\n    \"methodology\": \"md\",\n    \"scope\": \"md\",\n    \"definition_descriptions\": \"md\",\n    \"findings\": [\n        {\n            \"finding_number\": \"string\",\n            \"finding_title\": \"string\",\n            \"consequence\": \"string\",\n            \"likelihood\": \"string\",\n            \"severity\": \"string\",\n            \"general_vulnerability_description\": \"string\",\n            \"finding_text\": \"md\"\n        }\n    ],\n    \"conclusion\": \"md\"\n}",
+    "json_data": "{}",
+    "id": "2a5cc2a2-b472-4e3a-b58e-c200d6da376c",
+    "createdAt": "2025-03-20T13:33:14.098Z",
+    "updatedAt": "2025-03-20T13:33:14.098Z"
+  },
+  {
+    "name": "test faktura",
+    "templateId": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "templateName": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"number\",\n    \"customer_nr\": \"number\",\n    \"invoice_date\": \"date\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"date\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\",\n    \"items\": [\n        {\"name\":\"string\", \"amount\":\"number\",\"unit\":\"string\", \"price\":\"decimal\"}\n    ]\n}",
+    "json_data": "{\"invoice_nr\":12345,\"customer_nr\":9876,\"invoice_date\":\"2023-11-15\",\"invoice_address\":\"ABC Corporation\\n123 Business Avenue\\nSuite 500\\nNew York, NY 10001\\nUnited States\",\"payment_terms\":\"Net 15 days\",\"invoice_due_date\":\"2023-11-30\",\"customer_reference\":\"PO-78910\",\"contractor_reference\":\"REF-ABC123\",\"items\":[{\"name\":\"Consulting Services\",\"amount\":100,\"unit\":\"hours\",\"price\":150},{\"name\":\"Software Development\",\"amount\":1,\"unit\":\"project\",\"price\":5000},{\"name\":\"Technical Documentation\",\"amount\":75,\"unit\":\"pages\",\"price\":25},{\"name\":\"Training\",\"amount\":8,\"unit\":\"hours\",\"price\":200}]}",
+    "id": "948ec93f-00c3-4d11-9f3a-52fddd1cd3bb",
+    "createdAt": "2025-03-20T10:55:52.305Z",
+    "updatedAt": "2025-03-20T12:24:34.872Z"
+  },
+  {
+    "name": "testingmcp",
+    "templateId": "1ac137d5-5c89-4ede-8365-31bce4090d87",
+    "templateName": "Devsec Quote Template",
+    "json_structure": "{\n    \"date\": \"string\",\n    \"version\": \"string\",\n    \"author\": \"string\",\n    \"customer\": \"string\",\n    \"product\": \"product\",\n    \"introduction\": \"md\",\n    \"scope\": \"md\",\n    \"methodology\": \"md\",\n    \"deliverables\": \"md\",\n    \"timeline\": \"md\",\n    \"pricing\": \"md\",\n    \"terms_and_conditions\": \"md\",\n    \"contact_information\": \"md\",\n    \"acceptance\": \"md\"\n}",
+    "json_data": "{}",
+    "id": "a03527d8-283e-432f-a2dc-90561ae83764",
+    "createdAt": "2025-03-20T09:55:34.219Z",
+    "updatedAt": "2025-03-20T09:55:34.219Z"
+  },
+  {
+    "name": "Acme Quote",
+    "templateId": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "templateName": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"number\",\n    \"customer_nr\": \"number\",\n    \"invoice_date\": \"date\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"date\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\",\n    \"items\": [\n        {\"name\":\"string\", \"amount\":\"number\",\"unit\":\"string\", \"price\":\"decimal\"}\n    ]\n}",
+    "json_data": "{\"invoice_nr\":\"Faktura-20231001\",\"customer_nr\":\"KUND-456789\",\"invoice_date\":\"2023-10-15\",\"invoice_address\":\"Elmvägen 123, 62701 Springfield, Sverige\",\"payment_terms\":\"Netto 30\",\"invoice_due_date\":\"2023-11-14\",\"customer_reference\":\"John Doe\",\"contractor_reference\":\"Jane Smith\",\"items\":[{\"name\":\"Webbutvecklingstjänster\",\"amount\":10,\"unit\":\"timmar\",\"price\":75},{\"name\":\"Grafisk design\",\"amount\":5,\"unit\":\"timmar\",\"price\":60},{\"name\":\"SEO-optimering\",\"amount\":1,\"unit\":\"månad\",\"price\":150}]}",
+    "id": "af62009b-7a92-425d-82e8-1f28fbda01f9",
+    "createdAt": "2025-03-20T07:35:00.764Z",
+    "updatedAt": "2025-03-20T07:38:05.054Z"
+  },
+  {
+    "name": "Faktura nisse",
+    "templateId": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "templateName": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"string\",\n    \"customer_nr\": \"string\",\n    \"invoice_date\": \"string\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"string\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\",\n    \"items\": [\n        {\"name\":\"string\", \"amount\":\"string\",\"unit\":\"string\", \"price\":\"string\"}\n    ]\n}",
+    "json_data": "{\"invoice_nr\":\"2\",\"customer_nr\":\"2\",\"invoice_date\":\"2025-02-12\",\"invoice_address\":\"wefwef\",\"payment_terms\":\"wefwef\",\"customer_reference\":\"wef\",\"contractor_reference\":\"wef\",\"items\":[{\"name\":\"wef\",\"amount\":\"23\",\"unit\":\"st\",\"price\":\"\"}]}",
+    "id": "c737f7a0-e8fa-4e99-8806-1ffd3cdd0668",
+    "createdAt": "2025-03-19T16:51:54.351Z",
+    "updatedAt": "2025-03-19T17:00:56.934Z"
+  },
+  {
+    "name": "Faktura till nån",
+    "templateId": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "templateName": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"number\",\n    \"customer_nr\": \"number\",\n    \"invoice_date\": \"date\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"date\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\",\n    \"items\": [\n        {\"name\":\"string\", \"amount\":\"number\",\"unit\":\"string\", \"price\":\"decimal\"}\n    ]\n}",
+    "json_data": "{}",
+    "id": "c9a42be7-6790-4165-b5a2-80ae9e065caf",
+    "createdAt": "2025-03-20T07:38:50.390Z",
+    "updatedAt": "2025-03-20T07:38:50.390Z"
+  },
+  {
+    "name": "testsetsetest",
+    "templateId": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "templateName": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"number\",\n    \"customer_nr\": \"number\",\n    \"invoice_date\": \"date\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"date\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\"\n}",
+    "json_data": "{}",
+    "id": "cff9bde8-50de-4d99-88d2-5cc8f161b43d",
+    "createdAt": "2025-03-20T12:05:38.644Z",
+    "updatedAt": "2025-03-20T12:05:38.644Z"
+  },
+  {
+    "name": "Acme pentest",
+    "templateId": "c9049a9f-2ca6-4694-af4c-8e2bfc0fc2f0",
+    "templateName": "Devsec pentest report template",
+    "json_structure": "{\n    \"report_date\": \"string\",\n    \"report_version\": \"string\",\n    \"report_author\": \"string\",\n    \"customer\": \"string\",\n    \"product\": \"string\",\n    \"assessement_date\":\"string\",\n    \"executive_summary\": \"md\",\n    \"background\": \"md\",\n    \"purpose\": \"md\",\n    \"methodology\": \"md\",\n    \"scope\": \"md\",\n    \"definition_descriptions\": \"md\",\n    \"findings\": [\n        {\n            \"finding_number\": \"string\",\n            \"finding_title\": \"string\",\n            \"consequence\": \"string\",\n            \"likelihood\": \"string\",\n            \"severity\": \"string\",\n            \"general_vulnerability_description\": \"string\",\n            \"finding_text\": \"md\"\n        }\n    ],\n    \"conclusion\": \"md\"\n}",
+    "json_data": "{\"report_date\":\"2025-03-19\",\"report_version\":\"1.0\",\"report_author\":\"Your Name\",\"customer\":\"Acme\",\"product\":\"Acme's mobile app and web page\",\"assessement_date\":\"2025-03-12\",\"executive_summary\":\"### Executive Summary\\n\\nIn today's rapidly evolving digital landscape, ensuring the **robustness** and **resilience** of digital assets is paramount. This comprehensive security assessment of Acme's *cutting-edge* mobile application and *dynamic* web interface reveals **mission-critical** vulnerabilities that could impede operational excellence and compromise data integrity. \\n\\n#### Key Highlights\\n- **State-of-the-art Methodologies**: Leveraged to provide a **holistic overview** of the security posture.\\n- **Critical Vulnerabilities Identified**:\\n  - A **high-stakes** Cross-Site Scripting (XSS) vulnerability within the web application.\\n  - A **significant exposure** of a secret key in the mobile app.\\n\\n#### Risks and Recommendations\\n- These vulnerabilities present **existential risks** to the user experience and brand reputation.\\n- **Proactive Mitigation Strategies**: Imperative to fortify the security framework and align with **best-in-class** industry standards.\\n\\nBy addressing these vulnerabilities, Acme can safeguard its **competitive edge**, enhance stakeholder trust, and continue to deliver **unparalleled value** to its user base.\",\"background\":\"Acme has developed a mobile application and web page to provide seamless services to its users. To ensure the security of these platforms, a thorough security assessment was conducted.\",\"purpose\":\"The purpose of this security assessment was to identify potential vulnerabilities in Acme's mobile app and web page and provide recommendations to mitigate associated risks.\",\"methodology\":\"The assessment was conducted using a combination of automated tools and manual testing methods. The focus was on identifying common web and mobile application vulnerabilities, including XSS and improper handling of sensitive information.\",\"scope\":\"The scope of this assessment included the main functionalities of Acme's web page and mobile app, with a focus on user input handling and sensitive data management.\",\"definition_descriptions\":\"This section contains definitions and descriptions of terms and methodologies used in the security assessment.\",\"findings\":[{\"finding_number\":\"1\",\"finding_title\":\"Cross-Site Scripting (XSS) in the Page Parameter\",\"consequence\":\"Critical\",\"likelihood\":\"High\",\"severity\":\"High\",\"general_vulnerability_description\":\"Cross-Site Scripting (XSS) is a type of vulnerability that allows attackers to inject scripts into web pages viewed by other users.\",\"finding_text\":\"During testing, an XSS vulnerability was discovered in the page parameter on the start page of the Acme web application. This allows an attacker to execute arbitrary JavaScript in the context of the user's session.\"},{\"finding_number\":\"2\",\"finding_title\":\"Exposure of Secret Key in Mobile App\",\"consequence\":\"High\",\"likelihood\":\"Medium\",\"severity\":\"High\",\"general_vulnerability_description\":\"Exposing secret keys in mobile applications can lead to significant security risks, as they can be extracted and used by attackers to gain unauthorized access.\",\"finding_text\":\"A secret key was found embedded within the Acme mobile application's code. This key could potentially be extracted and used maliciously if not properly managed.\"}],\"conclusion\":\"The assessment identified critical vulnerabilities within Acme's mobile app and web page that require immediate attention. Addressing these issues will significantly enhance the security of the platforms and protect user data.\"}",
+    "id": "e2a6d2f4-10db-41ae-9d5f-0bf499730a29",
+    "createdAt": "2025-03-19T16:27:03.028Z",
+    "updatedAt": "2025-03-19T16:41:57.724Z"
+  },
+  {
+    "name": "airbnb",
+    "templateId": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "templateName": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"number\",\n    \"customer_nr\": \"number\",\n    \"invoice_date\": \"date\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"date\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\",\n    \"items\": [\n        {\"name\":\"string\", \"amount\":\"number\",\"unit\":\"string\", \"price\":\"decimal\"}\n    ]\n}",
+    "json_data": "{\"invoice_nr\":1001,\"customer_nr\":5042,\"invoice_date\":\"2024-03-15\",\"invoice_address\":\"John Doe\\nHanden, Stockholms län\\nSweden\",\"payment_terms\":\"Due within 14 days\",\"invoice_due_date\":\"2024-03-29\",\"customer_reference\":\"Vacation Booking #H2403\",\"contractor_reference\":\"Airbnb Listing #43948660\",\"items\":[{\"name\":\"Mini villa on the sea, private beach and jetty\",\"amount\":5,\"unit\":\"nights\",\"price\":900},{\"name\":\"Cleaning fee\",\"amount\":1,\"unit\":\"service\",\"price\":500},{\"name\":\"Airbnb service fee\",\"amount\":1,\"unit\":\"service\",\"price\":882}]}",
+    "id": "fa0b4c67-5fc9-475d-b30c-a867e7c990c7",
+    "createdAt": "2025-03-20T08:58:18.881Z",
+    "updatedAt": "2025-03-20T10:18:36.563Z"
+  }
+]

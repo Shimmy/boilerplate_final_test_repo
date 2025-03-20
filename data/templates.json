@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Invoice",
+    "json_structure": "{\n    \"invoice_nr\": \"number\",\n    \"customer_nr\": \"number\",\n    \"invoice_date\": \"date\",\n    \"invoice_address\": \"string\",\n    \"payment_terms\": \"string\",\n    \"invoice_due_date\": \"date\",\n    \"customer_reference\": \"string\",\n    \"contractor_reference\": \"string\",\n    \"items\": [\n        {\"name\":\"string\", \"amount\":\"number\",\"unit\":\"string\", \"price\":\"decimal\"}\n    ]\n}",
+    "docx_filename": "template_321b9310-f0ef-457d-8602-c85bbeb6d06d.docx",
+    "id": "0a3dbc42-3a7c-4ea4-a81b-a39037ad207b",
+    "createdAt": "2025-03-19T16:48:05.876Z",
+    "updatedAt": "2025-03-20T07:34:44.217Z"
+  },
+  {
+    "name": "Devsec Quote Template",
+    "json_structure": "{\n    \"date\": \"string\",\n    \"version\": \"string\",\n    \"author\": \"string\",\n    \"customer\": \"string\",\n    \"product\": \"product\",\n    \"introduction\": \"md\",\n    \"scope\": \"md\",\n    \"methodology\": \"md\",\n    \"deliverables\": \"md\",\n    \"timeline\": \"md\",\n    \"pricing\": \"md\",\n    \"terms_and_conditions\": \"md\",\n    \"contact_information\": \"md\",\n    \"acceptance\": \"md\"\n}",
+    "docx_filename": "template_93c46199-b66d-4348-888a-1432b6036f74.docx",
+    "id": "1ac137d5-5c89-4ede-8365-31bce4090d87",
+    "createdAt": "2025-03-19T15:58:07.784Z",
+    "updatedAt": "2025-03-19T16:20:09.300Z"
+  },
+  {
+    "name": "Devsec pentest report template",
+    "json_structure": "{\n    \"report_date\": \"string\",\n    \"report_version\": \"string\",\n    \"report_author\": \"string\",\n    \"customer\": \"string\",\n    \"product\": \"string\",\n    \"assessement_date\":\"string\",\n    \"executive_summary\": \"md\",\n    \"background\": \"md\",\n    \"purpose\": \"md\",\n    \"methodology\": \"md\",\n    \"scope\": \"md\",\n    \"definition_descriptions\": \"md\",\n    \"findings\": [\n        {\n            \"finding_number\": \"string\",\n            \"finding_title\": \"string\",\n            \"consequence\": \"string\",\n            \"likelihood\": \"string\",\n            \"severity\": \"string\",\n            \"general_vulnerability_description\": \"string\",\n            \"finding_text\": \"md\"\n        }\n    ],\n    \"conclusion\": \"md\"\n}",
+    "docx_filename": "template_3a1ac89c-e66d-4ee3-a19f-186a2c459626.docx",
+    "id": "c9049a9f-2ca6-4694-af4c-8e2bfc0fc2f0",
+    "createdAt": "2025-03-19T16:25:07.086Z",
+    "updatedAt": "2025-03-19T16:26:49.607Z"
+  }
+]
